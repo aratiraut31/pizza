@@ -1,0 +1,115 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(pizza.images.jpg);
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: black;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px #fff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: red;
+}
+
+.menu a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px 20px;
+}
+
+.menu a:last-child {
+    background: rgb(179, 37, 37);
+    color: aqua;
+    border-radius: 8px;
+}
+
+.h-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 15px;
+
+}
+
+.h-text p {
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.h-text h1 {
+    font-size: 4em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.h-text h1 span {
+    color: red;
+}
+
+
+.h-text h2 {
+    color: pink;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+#order {
+    text-decoration: none;
+    color: white;
+    background: rgb(187, 22, 72);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#dis {
+    text-decoration: none;
+    color: white;
+    background: #8f1073;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#pizza {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+
+#pizza img {
+    transition: 0.4s ease;
+}
+
+#pizza img:hover {
+    transform: translateY(-20px);
+}
